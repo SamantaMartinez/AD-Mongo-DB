@@ -1,0 +1,63 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.12">
+  <diagram id="WI9T0HZ2pTsCkuznbFz-" name="Page-1">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AcxdMaKK0mU5kZiv2lnr-49" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;strokeColor=#808080;entryX=-0.032;entryY=0.493;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.016;exitY=0.498;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="RLjyjs_sm2IHfBNOWAbh-12" target="RLjyjs_sm2IHfBNOWAbh-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="691.5" y="45.5" as="sourcePoint" />
+            <mxPoint x="951.5" y="45.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLjyjs_sm2IHfBNOWAbh-27" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;entryX=-0.038;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.031;exitY=0.506;exitDx=0;exitDy=0;exitPerimeter=0;elbow=vertical;" edge="1" parent="1" source="RLjyjs_sm2IHfBNOWAbh-14" target="RLjyjs_sm2IHfBNOWAbh-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RLjyjs_sm2IHfBNOWAbh-37" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;entryX=-0.002;entryY=0.543;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="RLjyjs_sm2IHfBNOWAbh-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="356" y="224" as="sourcePoint" />
+            <mxPoint x="571.0500000000002" y="300.3499999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="476.25" y="239.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLjyjs_sm2IHfBNOWAbh-36" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;exitX=0.997;exitY=0.495;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="RLjyjs_sm2IHfBNOWAbh-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="736" y="504" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLjyjs_sm2IHfBNOWAbh-31" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;entryX=0.03;entryY=0.45;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RLjyjs_sm2IHfBNOWAbh-23" target="RLjyjs_sm2IHfBNOWAbh-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720.5" y="525.5" as="targetPoint" />
+            <mxPoint x="720.5" y="616.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLjyjs_sm2IHfBNOWAbh-12" value="Proveedor (Canal FTPS)" style="aspect=fixed;html=1;perimeter=none;align=center;shadow=0;dashed=0;image;fontSize=12;image=https://cdn-icons-png.flaticon.com/512/4864/4864285.png;labelBackgroundColor=#ffffff;fillColor=#4D9900;" vertex="1" parent="1">
+          <mxGeometry x="81.5" y="198.99999999999994" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RLjyjs_sm2IHfBNOWAbh-14" value="Staging Area (ETL)&lt;div&gt;(Transformación y Limpieza)&lt;br&gt;&lt;/div&gt;" style="aspect=fixed;html=1;perimeter=none;align=center;shadow=0;dashed=0;image;fontSize=12;image=https://cdn-icons-png.flaticon.com/512/9850/9850879.png;labelBackgroundColor=#ffffff;fillColor=#4D9900;" vertex="1" parent="1">
+          <mxGeometry x="311.5" y="198.99999999999994" width="48.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RLjyjs_sm2IHfBNOWAbh-16" value="Data Lake&lt;div&gt;(Documentos PDF, etc.)&lt;br&gt;&lt;/div&gt;" style="aspect=fixed;html=1;perimeter=none;align=center;shadow=0;dashed=0;image;fontSize=12;image=https://cdn-icons-png.flaticon.com/512/9857/9857941.png;labelBackgroundColor=#ffffff;fillColor=#4D9900;" vertex="1" parent="1">
+          <mxGeometry x="534.0000000000001" y="198.5" width="65" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="RLjyjs_sm2IHfBNOWAbh-19" value="Base de Datos&amp;nbsp;&lt;div&gt;Mongo DB&lt;/div&gt;" style="aspect=fixed;html=1;perimeter=none;align=center;shadow=0;dashed=0;image;fontSize=12;image=https://static-00.iconduck.com/assets.00/database-mongo-db-icon-1954x2048-wrw32e9l.png;labelBackgroundColor=#ffffff;fillColor=#4D9900;spacingTop=7;" vertex="1" parent="1">
+          <mxGeometry x="541.0000000000001" y="339.9999999999999" width="50" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="RLjyjs_sm2IHfBNOWAbh-23" value="Procesamiento Batch&lt;div&gt;(Clasificación por Zona)&lt;br&gt;&lt;/div&gt;" style="aspect=fixed;html=1;perimeter=none;align=center;shadow=0;dashed=0;image;fontSize=12;image=https://cdn-icons-png.flaticon.com/512/4241/4241504.png;labelBackgroundColor=#ffffff;fillColor=#4D9900;spacingTop=6;" vertex="1" parent="1">
+          <mxGeometry x="736.25" y="478.5" width="53.63" height="71.5" as="geometry" />
+        </mxCell>
+        <mxCell id="RLjyjs_sm2IHfBNOWAbh-24" value="Power BI" style="shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.mscae.cloud.power_bi_embedded;fillColor=#000000;pointerEvents=1;labelBackgroundColor=#ffffff;spacingTop=7;" vertex="1" parent="1">
+          <mxGeometry x="946.9999999999999" y="492" width="47" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="j2F5g9eaFrmMBqz_MBKM-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.037;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#808080;" edge="1" parent="1" source="RLjyjs_sm2IHfBNOWAbh-16" target="RLjyjs_sm2IHfBNOWAbh-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j2F5g9eaFrmMBqz_MBKM-12" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Generación de Informes&amp;nbsp;&lt;div&gt;(Mensual por Zonas) &lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="890" y="538" width="160" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
